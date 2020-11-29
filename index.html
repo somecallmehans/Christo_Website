@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Christian Anderson</title>
+	<script src="jquery-3.5.1.min.js"></script>
+	<script src="https://kit.fontawesome.com/64929635bf.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+	<link rel="stylesheet" href="website.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.css">
+
+
+
+</head>
+<body>
+	<div class="d-flex flex-column">
+	<!-- Navigation Bar -->
+		<nav id="mainNav" class="navbar navbar-expand-md fixed-top">
+			<button class="navbar-toggler navbar-toggler-right" type="button" 	data-toggle="collapse" data-target="#navLinks" aria-controls="navLinks" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-bars"></i>
+			</button>
+    		<div class="collapse navbar-collapse justify-content-center" id="navLinks">
+    		    <div class="navbar-nav">
+    		       <!--  <a class="nav-link" href="#">Blog <span class="sr-only">(current)</span></a> -->
+    		        <a class="nav-link" href="#sectionBio">Resume</a>
+    		        <a class="nav-link" href="#projects">Projects</a>
+    		        <a class="nav-link" href="#">Contact</a>
+    		    </div>  
+    		</div>
+		</nav>
+	
+	
+		<!-- Section 1 Picture + Blurb -->
+		<section id="siteHero">
+			<div class="container-fluid h-100">
+				<div class="row text-center h-75">
+					<div class="col-lg-12 align-self-center">
+						<div class="text-center">
+							<img class="img-fluid heroIMG img-thumbnail shadow-lg animate__animated animate__fadeInDownBig" src="images/DSC_0081.jpg">
+							<h1 class="display-2 mt-3 animate__animated animate__fadeInRightBig">Hi. I'm Christo.</h1>
+							<h3 class="display-4 animate__animated animate__fadeInBottomLeft">I make stuff.</h3>
+						</div>
+					</div>
+				</div>
+			</div>	
+		</section>
+		<!-- Section 2 Resume -->
+		<!-- Another thing to do is when screen size is sm or xs, stack About and Experience (i.e. left section first right second) -->	
+		<section id="sectionBio">
+			<div class="container-fluid h-100 my-3">
+				<div class="row h-100">
+					<!-- This col contains the about side -->
+					<div class="col-sm-5 col-xs-12 text-center">
+						<h2 id="bioIntro">About</h2>
+						<p id="bioContent">
+							I'm originally from Aliquippa PA, currently residing in the Lawrenceville neighborhood of Pittsburgh. I graduated from the Pennsylvania State University in 2017 with my BsC in Information Sciences & Technology. I've worked in a variety of roles through my career so far, currently as a project coordinator for Branding Brand, a mobile apps company based in the Strip District. 
+						</p>
+						<p id="bioContent">
+							In my free time I'm working to expand my skills as a developer, trying to learn the different facets of the trade where I can by picking up projects and working through udemy courses. Additionally I enjoy cooking for my friends, lifting weights/running, being a garbage woodworker, and being an amateur wannabe cowboy at open mic nights. 
+						</p>
+					</div>
+					<!-- This col contains the experience/education/coursework side -->
+					<div class="col-sm-7 col-xs-12 text-center">
+						<h2 id="bioIntro">Experience</h2>
+						<div class="row">
+							<div class="col-6">
+								<p id="experienceType"><i class="fas fa-briefcase"></i> Work Experience</p>
+							</div>
+							<div class="col-6">
+								<div>
+									<ul id="ulExperience" class="list-unstyled">
+										<li id="company">Branding Brand LLC</li>
+										<li id="title">Project Coordinator</li>
+										<li id="era">January 2020 to Present</li>
+									</ul>
+									<ul id="ulExperience" class="list-unstyled">
+										<li id="company">Savvior Techonlogy Solutions</li>
+										<li id="title">Project Manager</li>
+										<li id="era">February 2019 to July 2019</li>
+									</ul>
+									<ul id="ulExperience" class="list-unstyled align-left">
+										<li id="company">Calgon Carbon Corporation</li>
+										<li id="title">IT Analyst</li>
+										<li id="era">July 2017 to January 2019</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<hr>
+						<div class="row">
+							<div class="col-6">
+								<p id="experienceType"><i class="fas fa-graduation-cap"></i> Education</p>
+							</div>
+							<div class="col-6">
+								<ul id="ulExperience" class="list-unstyled">
+									<li id="company">The Pennsylvania State University</li>
+									<li id="title">BsC Information Sciences & Technology</li>
+									<li id="era">Graduated May 2017</li>
+								</ul>
+							</div>
+						</div>
+						<hr>
+						<div class="row">
+							<div class="col-6">
+								<p id="experienceType"><i class="fas fa-book-open"></i> Other Coursework</p>
+							</div>
+							<div class="col-6">
+									<ul id="ulExperience" class="list-unstyled">
+										<li id="title">The Complete Python Bootcamp</li>
+										<li id="title">The Complete SQL Bootcamp</li>
+										<li id="title">The Complete Web Developer Bootcamp</li>
+									</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<hr>
+				<!-- Show/Hide Skills -->
+				<div class="row h-100 my-3">
+					<div class="col-12 text-center">
+						<input type="button" value="Display Skills" id="btn1" class="mb-2">
+						<div id="skillset" class="row mt-3">
+							<div class="col-6 d-flex justify-content-center">
+								<ul class="list-unstyled">
+									<li id="skills"><i class="fas fa-code"></i> HTML/CSS/Javascript</li>
+									<li id="skills"><i class="fab fa-bootstrap"></i> Bootstrap</li>
+									<li id="skills"><i class="fab fa-python"></i> Python</li>
+									<li id="skills"><i class="fas fa-database"></i> PostgreSQL</li>
+									<li id="skills"><i class="fas fa-calendar-alt"></i> Project Scheduling</li>
+									<li id="skills"><i class="fas fa-exclamation-triangle"></i> Risk Assessment</li>
+								</ul>
+							</div>
+							<div class="col-6 d-flex justify-content-center">
+								<ul class="list-unstyled">
+									<li id="skills"><i class="fas fa-file"></i> jQuery</li>
+									<li id="skills"><i class="fab fa-jira"></i> JIRA</li>
+									<li id="skills"><i class="fas fa-bell"></i> Leanplum</li>
+									<li id="skills"><i class="fab fa-google"></i> G-Suite</li>
+									<li id="skills"><i class="fas fa-comments"></i> Skilled Orator & Presenter</li>
+									<li id="skills"><i class="fas fa-dollar-sign"></i> Budget & Scope Tracking 
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		<!-- Projects (I'm thinking a bunch of bootstrap cards for woodworking/music/code projects that have clickable models with more info) -->
+		<section id="projects">
+			<div class="container-fluid">
+				<h2 class="text-center my-3">Projects</h2>
+					<div class="row mx-auto my-3">
+						<div class="col-3"></div>
+						<div class="col-6">
+							<ul id="lightSlider">
+								<li data-thumb="images/unsplash_python.jpg">
+									<div class="card h-100">
+										<img class="card-img-top slideImg" src="images/unsplash_python.jpg" alt="card 1 img">
+										<div class="card-body d-flex flex-column">
+											<h5 class="card-title">Reddit Background Switcher</h5>
+											<p class="card-text">A python script for MacOS that pulls images from a subreddit and sets them as the user's background.</p>
+						
+											<a id="modalBtn" type="button" data-toggle="modal" data-target="#rbsCard" href="#" class="btn mt-auto">Learn more</a>
+										</div>
+									</div>
+								</li>
+								<li data-thumb="images/headphones.jpg">
+									<div class="card h-100">
+										<img class="card-img-top slideImg" src="images/headphones.jpg" alt="card 2 img">
+										<div class="card-body d-flex flex-column">
+											<h5 class="card-title">Spotify Minute Tracker</h5>
+											<p class="card-text">A python script that tracks a user's listening time while running and reports it to them later.</p>
+							
+											<a id="modalBtn" type="button" data-toggle="modal" data-target="#spotCard" href="#" class="btn mt-auto">Learn more</a>
+											</div>
+									</div>
+								</li>
+								<li data-thumb="images/DSC_0081.jpg">
+									<div class="card h-100">
+										<img class="card-img-top slideImg" src="images/DSC_0081.jpg" alt="card 3 img">
+										<div class="card-body d-flex flex-column">
+											<h5 class="card-title">This website</h5>
+											<p class="card-text">You're on it, welcome!
+												<!-- This needs to be fixed in the future if the <p> isn't 3 lines the card shrinks/doesn't match -->
+													<br>
+													<br>
+											</p>
+											<a id="modalBtn" type="button" data-toggle="modal" data-target="#portCard" href="#" class="btn mt-auto">Learn more</a>
+										</div>
+									</div>
+								</li>
+							</ul>
+						</div>
+						<div class="col-3"></div>
+					</div>
+				</div>
+
+				<!-- Modals live down here maybe -->
+				<!-- The whole modal needs styled -->
+				<!-- Begin RBS Modal -->
+				<div class="modal fade" id="rbsCard" tabindex="-1" role="dialog" aria-labelledby="rbsCard" aria-hidden="true">
+  					<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    					<div class="modal-content">
+     	 					<div class="modal-header">
+        						<h5 class="modal-title" id="rbsModalTitle">Reddit Background Switcher</h5>
+        						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          						<span aria-hidden="true">&times;</span>
+        						</button>
+      						</div>
+      						<div class="modal-body">
+  								<div class="container-fluid">
+  									<div class="row">
+  										<div class="col-lg-6">
+  											<h6 class="text-center">About</h6>
+  											<p>I wrote this script because I like having a rotating desktop background, and I also like the albums covers at r/fakealbumcovers. The nice thing about this script is that almost any image based subreddit can be inserted in and it should work. Some of the challenges I had to work through were tailoring it specifically to macOS (since that's what I was developing on), and also how to handle images that weren't .jpg or .png. In the future I would like to rework this script for Windows, and also figure out a way to resize images so they don't get stretched.</p>
+  										</div>
+  										<div class="col-lg-6">
+  											<!-- <div class="embed-responsive embed-responsive-16by9">
+  												<iframe width="560" height="315" src="https://www.youtube.com/embed/6UklNu2NS4Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+											</div> -->
+  										</div>
+  									</div>
+  									<hr>
+  									<div class="row">
+  										<div class="col-lg-6">
+  											<h6 class="text-center">Tech Used</h6>
+  											<ul>
+  												<li>Python3</li>
+  												<li>Python Reddit API Wrapper (PRAW)</li>
+  												<li>Pillow</li>
+  											</ul>
+  										</div>
+  										<div class="col-lg-6 text-center">
+  											<!-- This needs styled -->
+  											<h6>Github Repo</h6>
+  											<a href="https://github.com/somecallmehans/FakeAlbumCoverpicker"><i class="text-center fab fa-github fa-5x"></i></a>
+  										</div>
+  									</div>
+  								</div>
+      						</div>
+    					</div>
+  					</div>
+				</div>
+				<!-- End RBS Modal -->
+				<!-- Begin Spotify Modal -->
+				<div class="modal fade" id="spotCard" tabindex="-1" role="dialog" aria-labelledby="rbsCard" aria-hidden="true">
+  					<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    					<div class="modal-content">
+     	 					<div class="modal-header">
+        						<h5 class="modal-title" id="rbsModalTitle">Spotify Minute Tracker</h5>
+        						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          						<span aria-hidden="true">&times;</span>
+        						</button>
+      						</div>
+      						<div class="modal-body">
+  								<div class="container-fluid">
+  									<div class="row">
+  										<div class="col-lg-6">
+  											<h6 class="text-center">About</h6>
+  											<p>I want to preface this by saying that last.fm does what this script is supposed to do, but like 1000x better. The idea is that you start the script and then begin a spotify session. The script detects that the session begins and starts a timer that starts and stops as the session starts and stops. Then later (I set it for early morning) it sends an email to the user with the number of minutes they listened the day prior. An expansion of this script would be to have it run year round and total the minutes for a whole year.</p>
+  										</div>
+  										<div class="col-lg-6">
+  											<!-- <div class="embed-responsive embed-responsive-16by9">
+  												<iframe width="560" height="315" src="https://www.youtube.com/embed/6UklNu2NS4Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+											</div> -->
+  										</div>
+  									</div>
+  									<hr>
+  									<div class="row">
+  										<div class="col-lg-6">
+  											<h6 class="text-center">Tech Used</h6>
+  											<ul>
+  												<li>Python3</li>
+  												<li>Spotipy</li>
+  											</ul>
+  										</div>
+  										<div class="col-lg-6 text-center">
+  											<!-- This needs styled -->
+  											<h6>Github Repo</h6>
+  											<a href="https://github.com/somecallmehans/Spotify-Time-Tracker"><i class="text-center fab fa-github fa-5x"></i></a>
+  										</div>
+  									</div>
+  								</div>
+      						</div>
+    					</div>
+  					</div>
+				</div>
+				<!-- End Spot Modal -->
+				<!-- Begin Website Modal -->
+				<div class="modal fade" id="portCard" tabindex="-1" role="dialog" aria-labelledby="portCard" aria-hidden="true">
+  					<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    					<div class="modal-content">
+     	 					<div class="modal-header">
+        						<h5 class="modal-title" id="rbsModalTitle">Personal Portfolio/Website</h5>
+        						<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          						<span aria-hidden="true">&times;</span>
+        						</button>
+      						</div>
+      						<div class="modal-body">
+  								<div class="container-fluid">
+  									<div class="row">
+  										<div class="col-lg-6">
+  											<h6 class="text-center">About</h6>
+  											<p>The first iteration of my portfolio/personal website. I'd like to use this as a type of sandbox, something to improve on over time especially as I learn more about web development and improve my skills.</p>
+  										</div>
+  										<div class="col-lg-6">
+  											<!-- <div class="embed-responsive embed-responsive-16by9">
+  												<iframe width="560" height="315" src="https://www.youtube.com/embed/6UklNu2NS4Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+											</div> -->
+  										</div>
+  									</div>
+  									<hr>
+  									<div class="row">
+  										<div class="col-lg-6">
+  											<h6 class="text-center">Tech Used</h6>
+  											<ul>
+  												<li>HTML/CSS</li>
+  												<li>jQuery</li>
+  												<li>Bootstrap4</li>
+  												<li>lightSlider</li>
+  												<li>Animate.css</li>
+  											</ul>
+  										</div>
+  										<div class="col-lg-6 text-center">
+  											<!-- This needs styled -->
+  											<h6>Github Repo</h6>
+  											<a href="#"><i class="text-center fab fa-github fa-5x"></i></a>
+  										</div>
+  									</div>
+  								</div>
+      						</div>
+    					</div>
+  					</div>
+				</div>
+		</section>
+
+
+
+
+
+		<!-- Contact -->
+		<section>
+
+			
+		</section>
+			
+	
+		<!-- Footer -->
+ 		<footer id="footer" class="flex-shrink-0 footer-color">
+ 			<div class="container">
+ 				<div class="row row-pd-md">
+ 					<div class="col-md-6 mt-5">
+ 						<h4 class="text-center">Hey there</h4>
+ 						<p class="mx-2">I made this site with my own blood sweat and tears. If you'd like to tell me what you think of it drop me an email at <u><a href="mailto:christianwillanderson@gmail.com">my gmail</a></u>.</p>
+ 						<!-- For when the window is shrunk to xs, I want the icons to be 	moved underneath the <p>. Right now I'm just hiding and unhiding them 	-->
+ 						<div class="d-md-none">
+ 							<div class="d-flex justify-content-center">
+ 								<a href="https://www.linkedin.com/in/christian-anderson-pgh/">	<i class="fa-lg fab fa-linkedin px-3 pb-1"></i></a>
+ 								<a href="https://www.instagram.com/somecallmehans/"><i class="	fa-lg fab fa-instagram-square px-3 pb-3"></i></a>
+ 								<a href="https://twitter.com/somecallmehans"><i class="fa-lg 	fab fa-twitter px-3 pb-3"></i></a>
+ 								<a href="https://github.com/somecallmehans"><i class="fa-lg 	fab fa-github px-3 pb-3"></i></a>
+ 								<a href="https://open.spotify.com/user/12181912590?si=TatLvFzkTbKx5GIQg0F4Fw"><i class="fab fa-spotify"></i></i></a>
+ 							</div>
+ 						</div>
+ 					</div>
+	
+ 					<div class="col-md-6 mt-5 d-sm-none d-md-block d-none">
+ 						<h4 class="text-center">Social Media</h4>
+ 						<div class="col-md-12">
+ 							<ul class="list-unstyled text-center">
+ 								<li><i class="fab fa-linkedin"></i><a href="	https://www.linkedin.com/in/christian-anderson-pgh/"> LinkedIn	</a></li>
+ 								<li><i class="fab fa-instagram-square"></i><a href="	https://www.instagram.com/somecallmehans/"> Instagram</a></li>
+ 								<li><i class="fab fa-twitter"></i><a href="https://twitter.com	/somecallmehans"> Twitter</a></li>
+ 								<li><i class="fab fa-github"></i><a href="https://github.com/	somecallmehans"> Github</a></li>
+ 								<li><i class="fab fa-spotify"></i><a href="https://open.spotify.com/user/12181912590"> Spotify</a></li>
+ 							</ul>
+ 						</div>
+ 					</div>
+ 				</div>
+ 			</div>
+ 		</footer>
+	</div>
+
+	<script type="text/javascript">
+    $('#lightSlider').lightSlider({
+        gallery: true,
+        item: 1,
+        loop: true,
+        slideMargin: 0,
+        thumbItem: 9
+    });
+	</script>
+
+	<script src="expandBioTog.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+</html>

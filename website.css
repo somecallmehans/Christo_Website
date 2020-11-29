@@ -1,0 +1,178 @@
+a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+ }
+
+a:hover{
+	/*Link color on hover*/
+	color: #dee2e6ff;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+	padding-top: 6vh;
+ 	padding-bottom: 225px; /* Apparently the trick to making it so your footer doesn't overlap content
+  is to make padding-bottom === footer height */
+}
+
+body{
+	min-height:100vh;
+}
+
+#siteHero{
+	width: 100%;
+	height: 100vh;
+	background-color: #adb5bdff;
+	color: #212529ff;
+	font-family: 'Lato', sans-serif;
+}
+
+.heroIMG{
+	max-width: 600px;
+	width:100%;
+	align-self: center;
+}
+
+#bioBtn {
+ 	position: absolute;
+}
+
+#mainNav, #footer {
+	background-color: #343a40ff;
+}
+
+#mainNav a, #navLinks, .navbar-toggler {
+	color: #f8f9faff;
+} 
+
+#mainNav a:hover{
+	color: #dee2e6ff;
+}
+
+.navbar-nav>a{
+	border-right: 1px solid #f8f9faff;
+	font-family: 'Lato', sans-serif;
+}
+
+.navbar-nav>a:last-child{
+	border: none;
+}
+
+body {
+	background-color: #f8f9faff;
+}
+
+#sectionBio {
+	background-color: #e9ecefff;
+	font-family: 'Lato', sans-serif;
+}
+
+#bioIntro{
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	color: #212529ff;
+}
+
+#bioContent{
+	font-family: 'Lato', sans-serif;
+	color: #343a40ff;
+}
+
+#experienceType{
+	color: #6c757dff;
+	font-size: 20px;
+	text-align: left;
+}
+
+#ulExperience {
+	text-align: left;
+}
+
+#company{
+	font-size: 16px;
+	font-weight: bold;
+	color: #343a40ff;
+}
+
+#title, #era{
+	font-size: 14px;
+	color: #343a40ff;
+}
+
+#skills {
+	font-size: 16px;
+	color: #343a40ff;
+	text-align: left;
+	font-family: 'Lato', sans-serif;
+}
+
+#footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 225px; /* Set the fixed height of the footer here */
+  color: #f8f9faff;
+}
+
+#btn1 {
+	width: 320px;
+	height: 50px;
+	border: none;
+	color: #f8f9faff;
+	background-color: #343a40ff;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+}
+
+#projects{
+	background-color: #adb5bdff;
+}
+
+#modalBtn {
+	background-color: #343a40ff;
+	color: #f8f9faff;
+}
+
+.card {
+	max-width: 500px;
+	max-height: 600px;
+	margin: 0 auto;
+	float: none;
+	margin-bottom: 10px;
+}
+
+.card-body {
+	background-color: #e9ecefff;
+}
+
+.card-text{
+	font-family: 'Lato', sans-serif;
+}
+
+.card-img-top{
+	width: 100%;
+	max-height: 500px;
+	height: 70%;
+	object-fit: cover;
+}
+/*From https://codepen.io/kreigd/pen/ybYNoN?editors=1100*/
+
+
+/* Current color palette info
+check coolors for info
+from offish white to dark gray
+--cultured: #f8f9faff; background?
+--cultured-2: #e9ecefff; background?
+--gainsboro: #dee2e6ff; text hover
+--light-gray: #ced4daff; text
+--cadet-blue-crayola: #adb5bdff;
+--slate-gray: #6c757dff;
+--davys-grey: #495057ff; 
+--gunmetal: #343a40ff; footer/nav
+--charleston-green: #212529ff; distinctly not green
+ */
