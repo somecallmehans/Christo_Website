@@ -17,10 +17,8 @@ body {
 	padding-top: 6vh;
  	padding-bottom: 225px; /* Apparently the trick to making it so your footer doesn't overlap content
   is to make padding-bottom === footer height */
-}
-
-body{
-	min-height:100vh;
+  	background-color: #f8f9faff;
+  	min-height:100vh;
 }
 
 #siteHero{
@@ -62,13 +60,12 @@ body{
 	border: none;
 }
 
-body {
-	background-color: #f8f9faff;
-}
 
 #sectionBio {
 	background-color: #e9ecefff;
 	font-family: 'Lato', sans-serif;
+	padding-top: 40px;
+	margin-top: -40px;
 }
 
 #bioIntro{
