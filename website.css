@@ -24,9 +24,7 @@ body {
 #siteHero{
 	width: 100%;
 	height: 100vh;
-	background-color: #adb5bdff;
 	color: #212529ff;
-	font-family: 'Lato', sans-serif;
 }
 
 .heroIMG{
@@ -53,7 +51,6 @@ body {
 
 .navbar-nav>a{
 	border-right: 1px solid #f8f9faff;
-	font-family: 'Lato', sans-serif;
 }
 
 .navbar-nav>a:last-child{
@@ -62,20 +59,16 @@ body {
 
 
 #sectionBio {
-	background-color: #e9ecefff;
-	font-family: 'Lato', sans-serif;
 	padding-top: 40px;
 	margin-top: -40px;
 }
 
 #bioIntro{
-	font-family: 'Lato', sans-serif;
 	font-weight: 700;
 	color: #212529ff;
 }
 
 #bioContent{
-	font-family: 'Lato', sans-serif;
 	color: #343a40ff;
 }
 
@@ -104,7 +97,6 @@ body {
 	font-size: 16px;
 	color: #343a40ff;
 	text-align: left;
-	font-family: 'Lato', sans-serif;
 }
 
 #footer {
@@ -122,11 +114,10 @@ body {
 	border: none;
 	color: #f8f9faff;
 	background-color: #343a40ff;
-	font-family: 'Lato', sans-serif;
 	font-size: 20px;
 }
 
-#projects{
+#projects, #siteHero{
 	background-color: #adb5bdff;
 }
 
@@ -143,11 +134,11 @@ body {
 	margin-bottom: 10px;
 }
 
-.card-body {
+.card-body, #sectionBio {
 	background-color: #e9ecefff;
 }
 
-.card-text{
+.card-text, #contact, #projects, #siteHero,.navbar-nav>a,#btn1,#skills,#bioContent,#bioIntro, #sectionBio{
 	font-family: 'Lato', sans-serif;
 }
 
@@ -157,7 +148,6 @@ body {
 	height: 70%;
 	object-fit: cover;
 }
-/*From https://codepen.io/kreigd/pen/ybYNoN?editors=1100*/
 
 
 /* Current color palette info
